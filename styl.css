@@ -1,0 +1,64 @@
+body{margin:0px;}
+*{font-family: Tahoma,Verdana,Segoe,sans-serif; color:white;}
+
+
+
+#LOGO{
+
+	float:left;
+	background-color: #983713;
+	width:17%;
+	height:100px;
+	display:inline-block;
+}
+
+#NAG{
+
+	float:left;
+	background-color: #983713;
+	width:49%;
+	height:100px;
+	text-align:center;
+	display:inline-block;
+}
+
+#LEWA{
+	float:left;
+	display:block;
+	background-color:#FF7F50;
+	width:80%;
+	height:500px;
+
+}
+
+#PRAWA{
+	float:right;
+	background-color:#FF7F50;
+	width:20%;
+	height:500px;
+
+}
+
+#BUT{
+	background-color:#D3D3D3;
+	color:#2F2F2F;
+	border-width:2px;
+	border-style: solid;
+	border-color:#2F2F2F;
+	margin:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+#INT{
+	color:orange;
+}
+
+#DOWN{
+	display:inline-block;
+	background-color:#983713;
+	text-align:right;
+	width:100%;
+}
