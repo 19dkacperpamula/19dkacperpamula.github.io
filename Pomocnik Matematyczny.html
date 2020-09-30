@@ -1,47 +1,52 @@
 
 <!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Działania matematyczne</title>
-  <link rel="stylesheet" href="styl.css">
-  <script src="kalkulator.js"></script>
- </head>
- <body>
-  <section id="a">
-	<img src="logo.jpg" alt="matematyka">
-  </section>
-  <section id="b">
-	<h1>Pomocnik Matematyczny</h1>
-  </section>
-  <section id="c">
-	<a href="dzialania.html"><h4>Działania</h4></a>
-  </section>
-  <section id="d">
-	<a href="mnozenie.html"><h4>Tabliczka mnożenia</h4></a>
-  </section>
-  <section id="l">
-	<h3>Proste działania</h3>
-	<p>liczba A: <input id="pole1" type="text"></p>
-	<p>liczba B: <input id="pole2" type="text"></p>
-	<input id="e" type="button" value="+" onclick="dodawanie()">
-	<input id="e" type="button" value="-" onclick="odejmowanie()">
-	<input id="e" type="button" value="*" onclick="mnozenie()">
-	<input id="e" type="button" value="/" onclick="dzielenie()">
-	<input id="e" type="button" value="A^B" onclick="potegowanie()">
-	<p id="wynik"></p>
-  </section>
-  <section id="p">
-	<ul>
-		<li>dodawanie</li>
-		<li>odejmowanie</li>
-		<li>mnożenie</li>
-		<li>dzielenie</li>
-		<li>potęgowanie</li>
-	</ul>
-  </section>
-  <section id="f">
-	<p>Autor: 00000000000000</p>
-  </section>
- </body>
+<html lang="pl">
+<head>
+	 <meta name="viewport"/>
+	 <meta charset="utf-8"/>
+	 <link rel="stylesheet" type="text/css" href="./styl.css"/>
+	 <title>Działania matematyczne</title>
+
+</head>
+<body>
+	<div id="Gorny">
+		<div id="LOGO">
+			<img src="logo.jpg" alt="matematyka"/>
+		</div>
+		<div id="NAG">
+			<h1>Pomocnik Matematyczny</h1>
+		</div>
+		<div id="LOGO">
+			<h4>Działania</h4></a>
+		</div>
+		<div id="LOGO">
+			<h4>Tabliczka mnożenia</h4></a>
+		</div>
+	</div>
+	<div>
+		<div id="LEWA">
+			<h3>Proste działania</h3>
+			<p>Liczba A: <input style="color:orange;" id="INTA" type="number"/></p>
+			<p>Liczba B: <input style="color:orange;" id="INTB" type="number"/></p>
+			<button onclick="Dzialanie" id="BUT">+</button>
+			<button onclick="Dzialanie" id="BUT">-</button>
+			<button onclick="Dzialanie" id="BUT">*</button>
+			<button onclick="Dzialanie" id="BUT">/</button>
+			<button onclick="Dzialanie" id="BUT">A^B</button>
+			<p id="Wynik"></p>
+		</div>
+		<div id="PRAWA">
+			<ul>
+				<li>dodawanie</li>
+				<li>odejmowanie</li>
+				<li>mnożenie</li>
+				<li>dzielenie</li>
+				<li>potęgowanie</li>
+			</ul>
+		</div>
+	</div>
+	<div id="DOWN">
+		<p>Autor: Kacper Pamuła</p>
+	</div>
+</body>
 </html>
