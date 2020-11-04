@@ -1,0 +1,75 @@
+#s1
+{
+	border:3px solid yellow;
+	max-width:1000px;
+	margin:0 auto;
+	text-align:center;
+	font-size:xx-large;
+	text-decoration:overline;
+}
+#s2
+{
+	border:3px solid yellow;
+	max-width:1000px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:underline;
+}
+#s3
+{
+	max-width:1000px;
+	margin:0 auto;
+	text-align:left;
+	
+}
+#s4
+{
+	border:3px solid yellow;
+	max-width:1000px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:underline;
+}
+#s5
+{
+	border:3px solid yellow;
+	max-width:1000px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:underline;
+}
+
+#s7
+{
+	border:3px solid yellow;
+	max-width:1000px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:underline;
+}
+#prace
+{
+	text-align:left;
+	max-width:1000px;
+	margin:0 auto;
+	font-size:large;
+}
+footer
+{
+	background-color:#6666ff;
+	text-align:center;
+	font-style:Comic sans;
+	position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+body
+{
+	background-image:url(tlo1.jpg);
+}
+a
+{
+	color: #000099;
+}
